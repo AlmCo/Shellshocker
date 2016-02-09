@@ -34,8 +34,7 @@ def shellshocker(url):
 
 def main():
 	try:
-		url = sys.argv[1]
-		shellshocker(url)
+		shellshocker(sys.argv[1])
 	except:
 		print "Using ERROR:\nHow to use example: 'python shellshocker.py http://example.com/cgi-bin/cat'\n"
 
