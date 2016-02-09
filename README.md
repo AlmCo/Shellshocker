@@ -4,7 +4,7 @@ Shellshock easily exploitation
 When you find Shellshock / Bashbug vulnerability and want the easiest way to exploit it, you can use Shellshocker.
 Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that it has a nice shell-interface.
 
-### Usage
+### Usage:
   1. Run the script with python: "python shellshocker.py http://exam.com/cgi-bin/cat"
 
 
@@ -14,7 +14,7 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
   3. Read the output :)
 
 
-### Examples
+### Examples:
 ```sh
 /.../shellshoker$ python shellshoker.py http://10.0.0.12:591/cgi-bin/cat
 Shellshock Command: cat /etc/passwd
