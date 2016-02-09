@@ -5,13 +5,15 @@ When you find Shellshock / Bashbug vulnerability and want the easyest way to use
 Avoid tinkering with the user-agent and feels like a shell directly.
 
 Using:
-  1. Run the script with python
+  1. Run the script with python:
   
     "python shellshocker.py http://exam.com/cgi-bin/cat"
+
 
   2. Hit command and press enter:
   
     "cat /etc/passwd"
+
 
   3. Read the output :)
 
