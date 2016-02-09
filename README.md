@@ -13,6 +13,9 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
 
   3. Read the output :)
 
+### Requirements:
+  1. Python  
+  2. Mechanize (Can installed by: 'sudo pip install mechanize')
 
 ### Examples:
 ```sh
