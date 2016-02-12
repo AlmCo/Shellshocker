@@ -8,10 +8,10 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
   1. Run the script with python: "python shellshocker.py http://exam.com/cgi-bin/cat"
 
 
-  2. Hit command and press enter: "cat /etc/passwd"
+  2. Write command and hit enter
 
 
-  3. Read the output :)
+  3. Get the output and back to 2 :)
 
 ### Requirements:
   1. Python  
