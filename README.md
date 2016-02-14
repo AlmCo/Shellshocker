@@ -14,7 +14,7 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
   3. Write command and hit enter
 
 
-  4. Get the output and back to 2 :)
+  4. Get the output and back to 3 :)
 
 ### Requirements:
   1. Python  
