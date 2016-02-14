@@ -5,7 +5,10 @@ When you find Shellshock / Bashbug vulnerability and want the easiest way to exp
 Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that it has a nice shell-interface.
 
 ### Usage:
-  1. Run the script with python: "python shellshocker.py http://exam.com/cgi-bin/cat"
+  1a. Run the script with python: "python shellshocker.py http://exam.com/cgi-bin/cat"
+  
+  
+  1b. If you want to use it with proxy: "python shellshocker.py http://exam.com/cgi-bin/cat 192.168.1.5:3128"
 
 
   2. Write command and hit enter
@@ -15,7 +18,7 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
 
 ### Requirements:
   1. Python  
-  2. Mechanize (Can installed by: 'sudo pip install mechanize')
+  2. Smile
 
 ### Examples:
 ```sh
