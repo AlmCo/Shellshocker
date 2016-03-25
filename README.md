@@ -16,9 +16,6 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
 
   4. Get the output and back to 3 :)
 
-### Requirements:
-  1. Python  
-  2. Smile
 
 ### Examples:
 ```sh
